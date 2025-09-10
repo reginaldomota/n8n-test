@@ -1,0 +1,2 @@
+{"__type":"$$EventMessageAudit","id":"11008a00-0a32-4f46-86cc-cf9bc057a5cb","ts":"2025-09-10T02:27:43.553+00:00","eventName":"n8n.audit.user.login.success","message":"n8n.audit.user.login.success","payload":{"userId":"46ec68fc-ecb5-4143-b9d0-17b7f1eb4bd9","_email":"devucondo@gmail.com","_firstName":"Dev","_lastName":"uCondo","globalRole":"global:owner","authenticationMethod":"email"}}
+{"__type":"$$EventMessageConfirm","confirm":"11008a00-0a32-4f46-86cc-cf9bc057a5cb","ts":"2025-09-10T02:27:43.554+00:00","source":{"id":"0","name":"eventBus"}}
