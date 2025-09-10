@@ -44,9 +44,7 @@ EOL
     if [ ! -d ./n8n-data ]; then
         echo "Criando o diretório ./n8n-data..."
         mkdir ./n8n-data
-        echo "Ajustando permissões do diretório (pode pedir sua senha)..."
-        sudo chown -R 1000:1000 ./n8n-data
-        echo -e "${GREEN}Permissões ajustadas!${NC}"
+        echo -e "${GREEN}Diretório criado com sucesso!${NC}"
     fi
 }
 

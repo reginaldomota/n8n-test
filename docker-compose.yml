@@ -9,10 +9,6 @@ services:
       - .env
     volumes:
       - ./n8n-data:/home/node/.n8n
-    # Garante que o contêiner rode com o mesmo ID de usuário
-    # para o qual o script 'chown' ajusta as permissões da pasta.
-    # Isso evita problemas de 'Permission Denied'.
-    user: '1000'
 
 volumes:
   n8n-data:
