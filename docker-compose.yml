@@ -1,0 +1,16 @@
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: n8n_service
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    
+    # Carrega as configurações do arquivo .env
+    env_file:
+      - .env
+
+    # Garante que seus dados (workflows, etc.) sejam salvos
+    # em uma pasta local chamada 'n8n-data'
+    volumes:
+      - ./n8n-data:/home/node/.n8n
